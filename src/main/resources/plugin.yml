@@ -1,0 +1,19 @@
+name: RelicsPlugin
+version: 1.0
+main: me.pralay.relics.RelicsPlugin
+api-version: '1.20'
+author: Pralay
+description: A complete relic system with special items
+
+commands:
+  relic:
+    description: Main relic command
+    usage: /relic give <armor|totem|mace> <player>
+    permission: relics.admin
+    aliases: [relics]
+
+permissions:
+  relics.admin:
+    description: Allows access to relic commands
+    default: op
+    
